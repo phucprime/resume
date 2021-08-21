@@ -31,12 +31,22 @@ const Home = () => {
 		<Wrapper>
 			<InnerWrapper>
 				<div>
-					<img src={logo} alt="logo" />
+					<img src={logo} alt="logo" style={{width: '150px'}} />
 				</div>
 				<ContentWrapper>
 					<img src={documentIcon} alt="document" style={{ marginTop: '60px' }} />
-					<P style={{ marginTop: '40px', maxWidth: '480px', marginLeft: 'auto', marginRight: 'auto' }}>
-						This is a tool that will allow you in creating a resume that you can download in PDF format. To begin, click the button below.
+					<P 
+						style={{ 
+							marginTop: '40px', 
+							maxWidth: '480px', 
+							marginLeft: 'auto', 
+							marginRight: 'auto' 
+						}}
+					>
+						This is a tool that will allow you 
+						in creating a resume that you can download 
+						in PDF format. To begin, 
+						click the button below.
 					</P>
 					<AddLink to="/create">
 						<FiPlus />
