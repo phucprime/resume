@@ -3,7 +3,7 @@
 
 All you have to do is enter the information needed to create a great resume, and the application immediately generate an attractive resume for you to download in PDF format.
 
-[Live demo](phucprime-resume.netlify.app)
+[LIVE DEMO](https://phucprime-resume.netlify.app)
 
 ![gif](https://github.com/phucprime/resume/blob/main/assets/demo.gif)
 
