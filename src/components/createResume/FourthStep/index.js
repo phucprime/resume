@@ -78,7 +78,7 @@ const FourthStep = (props) => {
 							/>
 
 							<AddButton variant="link" onClick={openModal}>
-								Add a work experience
+								+ Add an experience
 							</AddButton>
 						</Group>
 

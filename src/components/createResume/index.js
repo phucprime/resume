@@ -14,11 +14,11 @@ const Index = () => {
 	return (
 		<Steps>
 			<Step 
-				title="Enter your basic information" 
+				title="Enter your personal details" 
 				component={FirstStep} 
 			/>
 			<Step 
-				title="Professional Summary" 
+				title="Professional Overview" 
 				component={SecondStep} 
 			/>
 			<Step 
@@ -26,7 +26,7 @@ const Index = () => {
 				component={ThirdStep} 
 			/>
 			<Step 
-				title="Your work experience" 
+				title="Your previous work experience" 
 				component={FourthStep} 
 			/>
 			<Step 
