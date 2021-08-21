@@ -39,7 +39,7 @@ const FifthStep = (props) => {
 								<ReactTagInput
 									tags={props.getState('skills', [])}
 									onChange={(newTags) => props.setState('skills', newTags)}
-									placeholder='Enter your skills'
+									placeholder='Enter a skill and press enter'
 								/>
 							</FormGroup>
 
