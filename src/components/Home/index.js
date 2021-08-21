@@ -11,8 +11,8 @@ const ContentWrapper = styled.div`text-align: center;`;
 
 const AddLink = styled(Link)`
 	background : ${(props) => props.theme.primary.normal};
-	display: inline-block;
-	padding: 10px 15px;
+	display: inline-flex;
+	padding: 10px;
 	font-size: 30px;
 	border-radius: 50%;
 	border: none;

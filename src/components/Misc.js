@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 export const HomeLink = styled(Link)`
     background : #F9E1E1;
-    display: inline-block;
-    padding: 10px 15px;
+    display: inline-flex;
+    padding: 10px;
     font-size: 25px;
     border-radius: 50%;
     border: none;
