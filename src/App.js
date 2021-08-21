@@ -1,9 +1,12 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { 
+	BrowserRouter as Router, 
+	Route, 
+	Switch 
+} from 'react-router-dom';
 
 import { ThemeProvider } from 'styled-components';
 import theme from './theme';
 
-// Components
 import Home from './components/Home';
 import CreateResume from './components/createResume';
 
